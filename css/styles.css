@@ -1,0 +1,163 @@
+@media (min-width: 701px){
+
+body {
+    background-color: #468cdb;
+    color: white;
+    font-family: sans-serif;
+}
+    
+    h1 {
+        font-size: 50px;
+        color: white;
+        text-align: center;
+        font-family: sans-serif;
+    }
+
+#navegacion{
+    margin: 0px;
+    width:100%;
+    background-color: #242424;
+    font-family: sans-serif
+}
+#navegacion ol{
+    display: flex;
+    padding:0px;
+    margin-left: 1%;
+    margin-top: 0px;
+}
+#navegacion ol li{
+    list-style: none;
+    border-right: 1px solid purple;
+    display: block;
+}
+#navegacion ol li a{
+    color: white;
+    font-weight: bold;
+    padding: 15px 40px ;
+    display: table;
+    text-decoration: none;
+}
+#navegacion ol li a:hover{
+    color: white;
+    background-color: darkorchid;
+}
+
+.sbt {
+    
+    font-size: 20px;
+    
+}
+    
+    .selected {
+        
+        color: white;
+        background-color: darkorchid;
+        
+    }
+    
+    
+    
+   div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 15%;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+    
+    seccion {
+        clear: both;
+    }
+
+    h2 {
+        font-size: 250%;
+        color: turquoise;
+        margin-left: 5%;
+        clear:both;
+    }
+    
+    hr {
+        clear:both;
+    }
+    
+    button {
+        background-color: black;
+        color: white;
+        font-family: sans-serif;
+        font-weight: bold;
+        text-align: center;
+        border-radius: 10%;
+    }
+    
+    .bag {
+        border-radius: 50%;
+        height: 40px;
+    }
+    
+
+
+footer {
+        color: white;
+    }
+
+}
+
+@media (max-width: 700px){
+
+body {
+    background-color: #569696;
+}
+    
+    h1 {
+        font-size: 50px;
+        color: white;
+        text-align: center;
+        font-family: sans-serif;
+    }
+
+#navegacion{
+        width:100%;
+        background-color: #242424;
+    }
+    #navegacion ol{
+        display: flex;
+        padding:0px;
+        margin:0px;
+        width: 100%;
+    }
+    #navegacion ol li{
+        list-style: none;
+        border-right: 1px solid turquoise;
+        display: block;
+        padding: 5px;
+        font-family: sans-serif;
+    }
+    #navegacion ol li a{
+        color: white;
+        text-decoration: none;
+        padding: 4px 0px 4px;
+        display: table;
+        font-size: 10px;
+    }
+
+.sbt {
+    
+    font-size: 20px;
+    
+}
+    
+
+
+footer {
+        color: white;
+    }
+
+}
